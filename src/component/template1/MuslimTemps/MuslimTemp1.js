@@ -1,0 +1,376 @@
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+
+import mimg1 from '../mimg1.jfif';
+
+import m2 from '../../Moon/m2.jfif'
+import ff1 from '../../photoFrame/ff1.jpg'
+import tag4 from '../../tagLine/t4.png'
+import up from '../../underline/f1up.png'
+import down from '../../underline/f1down.png'
+import profilepic from '../pp1.jpg';
+import './MTemp.css'
+
+export default function TransparentForm() {
+  const navigate = useNavigate();
+  const handleCustomize = () => {
+
+    let boxStyles = {
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      textAlign: 'center',
+      
+      color: 'red',
+      position: 'relative',
+      left: '212px',
+      /* Additional styling for the 'box' class if needed */
+    };
+    const karuSaktaTitle2 = null;
+    
+    if (karuSaktaTitle2) {
+      boxStyles = {
+        ...boxStyles,
+        
+        /* Additional styling specific to the condition */
+      };
+    } else {
+      boxStyles = {
+        ...boxStyles,
+        marginBottom:20,
+        /* Additional styling specific to the condition */
+      };
+    }
+    let temp = "MTemp1"
+    console.log("16")
+
+    navigate(`/MuslimForm/${temp}`);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
+
+
+  return (
+    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      
+    <div
+      
+      style={{
+        width: '595px', // A4 paper width in pixels (72 dpi)
+        height: '842px', // A4 paper height in pixels (72 dpi)
+        backgroundImage: `url(${mimg1})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        position: 'relative',
+      }}
+    >
+      <form
+       
+        style={{
+          maxWidth: '500px',
+          margin: '0 auto',
+          background: 'transparent',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'flex-start',
+        }}
+      >
+                  <div
+          className='data'
+          style={{
+            width: '100%',
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+          }}
+        >
+          <div
+            style={{
+            top:-425,
+              position: 'relative',
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+            }}
+          >
+{/* <img src={m2} className='logo' alt="My Image" style={{ borderRadius: '100%', backgroundColor: 'transparent', width: '80px', height: '95px', position: 'absolute', top: '0px', right: '', zIndex: 3 }} /> */}
+
+<img src={up} className='u1' alt="My Image" style={{left:15, width: '105px', height: '35px', position: 'absolute', top: '120px', zIndex: 2, backgroundColor: 'transparent', transform: 'rotate(90deg)' }} />
+
+
+<img src={m2} className='tag' alt="My Image" style={{ borderRadius:100 ,width: '70px', height: '65px', position: 'absolute', top: '98px', zIndex: 1, backgroundColor: 'transparent' }} />
+
+<img src={down} className='u1' alt="My Image" style={{right:15, width: '105px', height: '35px', position: 'absolute', top: '120px',  zIndex: 0, backgroundColor: 'transparent',transform: 'rotate(90deg)' }} />
+
+
+            <img
+              src={ff1}
+              className='u1'
+              alt='My Image'
+              style={{
+                width: '120px',
+                height: '146px',
+                left: '80px',
+                position: 'absolute',
+                top: '225px',
+                zIndex: 0,
+                backgroundColor: 'transparent',
+              }}
+            />
+            
+
+{profilepic &&  <img
+              src={profilepic}
+              className='u1'
+              alt='My Image'
+              style={{
+                width: '96px',
+                height: '124px',
+                left: '92px',
+                position: 'absolute',
+                top: '235px',
+                zIndex: 0,
+                backgroundColor: 'transparent',
+              }}
+            />}
+          </div>
+
+          <div
+            className='wrapper'
+            style={{
+              width: '90%',
+              height: '400%',
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+              position: 'absolute',
+              left:80,
+              top: 195,
+              zIndex: 0,
+              backgroundColor: 'transparent',
+            }}
+          >
+        <div className='details-card'>
+        
+        {/* <div className='box'>
+        
+              <label style={{position:'relative', color:'red',left:72}} className='boxs'  >||  नारा ए तकबीर  ||</label>
+              </div> */}
+             
+              <div className='box'>
+              
+                <label  style={{position:'relative', color:'red',left:85}} className='boxs' >बायोडाटा</label>
+                </div>
+                <br/>
+              <div className='box'>
+                  <label  style={{ color: 'yellow'}}  className='title' htmlFor='name'>
+                  नाव:
+                  </label>
+                  <label  style={{ color: 'yellow'}}  htmlFor='name'>इमरान खान </label>
+                </div>
+                <div className='box'>
+                  <label  style={{ color: 'yellow'}}  className='title' htmlFor='address'>
+                  धर्म-जात:
+                  </label>
+                  <label  style={{ color: 'yellow'}}  htmlFor='address'>
+                  इस्लाम 
+                  </label>
+                </div>
+                {/* <div className='box'>
+                  <label className='title' htmlFor='fatherName'>
+                  गोत्र:
+                  </label>
+                  <label htmlFor='fatherName'>{gotra}</label>
+                </div> */}
+                {/* <div className='box'>
+                  <label className='title' htmlFor="nanlakksa">
+                  कुलदैवत:
+                  </label>
+                  <label htmlFor="nanlakksa">{kuldevta}</label>
+                </div>
+                <div className='box'>
+                  <label className='title' htmlFor='dob'>
+                  देवक:
+                  </label>
+                  <label htmlFor='dob'>{dewak}</label>
+                </div>
+                <div className='box'>
+                  <label className='title' htmlFor='email'>
+                  नक्षत्र:
+                  </label>
+                  <label htmlFor='email'>{naksatra};</label>
+                </div>
+                <div className='box'>
+                  <label className='title' htmlFor='name'>
+                  राशी:
+                  </label>
+                  <label htmlFor='name'>{rashii}</label>
+                </div> */}
+
+                {/* <div className='box'>
+                  <label className='title' htmlFor='age'>
+                  गण:
+                  </label>
+                  <label htmlFor='age'>{gann}</label>
+                </div>
+                <div className='box'>
+                  <label className='title' htmlFor='religion'>
+                  नाडी:
+                  </label>
+                  <label htmlFor='religion'>{naadi}</label>
+                </div> */}
+                <div className='box'>
+                  <label  style={{ color: 'yellow'}}  className='title' htmlFor='mob'>
+                  ऊंची:
+                  </label>
+                  <label style={{ color: 'yellow'}}  htmlFor='mob'>5'4</label>
+                </div>
+                <div className='box'>
+                  <label  style={{ color: 'yellow'}}  className='title' htmlFor='dob'>
+                  वर्ण:
+                  </label>
+                  <label  style={{ color: 'yellow'}}  htmlFor='dob'>kala</label>
+                </div>
+                <div className='box'>
+                  <label  style={{ color: 'yellow'}}  className='title' htmlFor='jobTitle'>
+                  रक्तगट:
+                  </label>
+                  <label  style={{ color: 'yellow'}}  htmlFor='jobTitle'>A+</label>
+                </div>
+                <div className='box'>
+                  <label  style={{ color: 'yellow'}}  className='title' htmlFor='age'>
+                  जन्मतारीख:
+                  </label>
+                  <label  style={{ color: 'yellow'}}  htmlFor='age'>12-09-1995</label>
+                </div>
+                <div className='box'>
+                  <label  style={{ color: 'yellow'}}  className='title' htmlFor='religion'>
+                  जन्म वेळ:
+                  </label>
+                  <label  style={{ color: 'yellow'}}  htmlFor='religion'>सकाळी ७ वाजता ३० मिनिटे</label>
+                </div>
+                <div className='box'>
+                  {/* <label className='title' htmlFor='mob'>
+                  संपर्क:
+                  </label> */}
+                  {/* <label htmlFor='mob'>9876543210</label> */}
+                </div>
+                <div className='box'>
+                  <label  style={{ color: 'yellow'}}  className='title' htmlFor='dob'>
+                  जन्मदिनांक:
+                  </label>
+                  <label  style={{ color: 'yellow'}}  htmlFor='dob'>12-09-1995</label>
+                </div>
+                <div className='box'>
+                  <label  style={{ color: 'yellow'}}  className='title' htmlFor='jobTitle'>
+                  जन्म स्थळ:
+                  </label>
+                  <label  style={{ color: 'yellow'}}  htmlFor='jobTitle'>teacher</label>
+                </div>
+                <div className='box'>
+                  <label  style={{ color: 'yellow'}}  className='title' htmlFor='address'>
+                  शिक्षण:
+                  </label>
+                  <label  style={{ color: 'yellow'}}  htmlFor='address'>
+                  Msc MPhil
+                  </label>
+                </div>
+                <div className='box'>
+                  <label   style={{ color: 'yellow'}} className='title' htmlFor='fatherName'>
+                  नोकरी/व्यवसाय:
+                  </label>
+                  <label  style={{ color: 'yellow'}}  htmlFor='fatherName'>Teacher</label>
+                </div>
+                <div className='box'>
+                  <label style={{ color: 'yellow'}}  className='title' htmlFor='motherName'>
+                  वेतन/उत्पन्न:
+                  </label>
+                  <label  style={{ color: 'yellow'}}  htmlFor='motherName'>50000</label>
+                </div>
+               
+                <div className='box'>
+  <label  style={{position:'relative', color:'red',left:72}}  className='boxs' >कौटुंबिक माहिती</label>
+</div>
+
+
+                <div className='box'>
+                  <label  style={{ color: 'yellow'}}  className='title' htmlFor='email'>
+                  वडिलांचे नाव:
+                  </label>
+                  <label  style={{ color: 'yellow'}}  htmlFor='email'> इकरामुल्लाह खान </label>
+                </div>
+                <div className='box'>
+                  <label  style={{ color: 'yellow'}}  className='title' htmlFor="nanlakksa">
+                  वडिलांचा व्यवसाय:
+                  </label>
+                  <label  style={{ color: 'yellow'}}  htmlFor="nanlakksa">शेती</label>
+                </div>
+                <div className='box'>
+                  <label  style={{ color: 'yellow'}}  className='title' htmlFor="nanlakksa">
+                  आईचे नाव:
+                  </label>
+                  <label  style={{ color: 'yellow'}}  htmlFor="nanlakksa"> शौकत खान</label>
+                </div>
+                <div className='box'>
+                  <label  style={{ color: 'yellow'}}  className='title' htmlFor="nanlakksa">
+                  बहीण:
+                  </label>
+                  <label  style={{ color: 'yellow'}} htmlFor="nanlakksa">शक खान</label>
+                </div>
+                <div className='box'>
+                  <label  style={{ color: 'yellow'}}  className='title' htmlFor="nanlakksa">
+                  भाऊ:
+                  </label>
+                  <label  style={{ color: 'yellow'}}  htmlFor="nanlakksa">इकराम खान</label>
+                </div>
+                <div className='box'>
+                  <label style={{ color: 'yellow'}}  className='title' htmlFor="nanlakksa">
+                  मामा:
+                  </label>
+                  <label style={{ color: 'yellow'}} htmlFor="nanlakksa">करम खान</label>
+                </div>
+                
+
+                <div className='box'>
+                <label style={{position:'relative', color:'red',left:85}} className='boxs'  >संपर्क</label>
+                </div>
+                <div style={{ width:200, position:'relative', left: 50}}>
+                <div className='box'>
+                  <label  style={{position:'relative',color: 'yellow', left
+                  :55}} className='title' htmlFor="nanlakksa">
+                  इकरामुल्लाह खान
+                  </label>
+                  {/* <label htmlFor="nanlakksa">aknna</label> */}
+                </div>
+                <div className='box'>
+                  <label style={{ color: 'yellow'}} className='title' htmlFor="nanlakksa">
+                  पत्ता:
+                  </label>
+                  <label  style={{color: 'yellow',position:'relative', right:35 ,width:260}} htmlFor="nanlakksa">प्लॉट नंबर 90, नगरखट, जेल रोड, मुंबई.</label>
+                </div>
+               
+                <div className='box'>
+                  <label style={{ color: 'yellow'}} className='title' htmlFor="nanlakksa">
+                  मो.नं.:
+                  </label>
+                  <label style={{ color: 'yellow',position:'relative', right:35}}  htmlFor="nanlakksa">90453232535</label>
+                </div>
+                </div>
+        </div>
+        <button onClick={handleCustomize} className='customizeB3' htmlFor="customize">CUSTOMIZE</button>
+      </div>
+      
+    </div>
+
+ 
+  </form>
+    
+  </div>
+    </div>
+  );
+}

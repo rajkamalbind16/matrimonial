@@ -1,0 +1,96 @@
+.mainFormssssss{
+    font-size: 20px;
+}
+
+
+.navJanamTarikh input{
+    width: 260px;
+    height: 25px;
+    font-size: 20px;
+}
+
+.dobjanamsthan input{
+    width: 200px;
+    height: 25px;
+    font-size: 20px;
+}
+
+.kuldevta input{
+    width: 250px;
+    height: 25px;
+    font-size: 20px;  
+}
+
+.rashiGunn input{
+    width: 200px;
+    height: 25px;
+    font-size: 20px;  
+}
+
+.nokriii input{
+    width: 450px;
+    height: 25px;
+    font-size: 20px;  
+}
+
+.peeshhaa input{
+    width: 450px;
+    height: 25px;
+    font-size: 20px;  
+}
+
+
+.mygrtiddd{
+    columns: 2;
+
+}
+
+.mygrtiddd input{
+    width: 350px;
+    height: 25px;
+    font-size: 20px;
+}
+
+.addressss input{
+    width: 350px;
+    height: 25px;
+    font-size: 20px;   
+}
+
+#btnnn{
+    color: white;
+    background-color: blue;
+    height: 40px;
+    width: 200px;
+    font-size: 25px;
+}
+
+#btnnn:hover{ 
+    color: green;
+    background-color: yellow;
+}
+
+.rotate-element {
+    max-width: 1050px;
+    top: 280px;
+    transform: rotate(-55deg);
+    position: absolute;
+    background-color: transparent;
+    opacity: 0.5;
+    border: solid black;
+    border-width: 1px;
+    left: -150px;
+    height: 100px;
+    width: 850px;
+    z-index: 0;
+    margin-left: 50px;
+    margin-right: 90px;
+    white-space: nowrap;
+  }
+  
+  @media (max-width: 900px) {
+    .rotate-element {
+      transform: rotate(-70deg);
+      left:-265px;
+    }
+  }

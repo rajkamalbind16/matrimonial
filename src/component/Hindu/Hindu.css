@@ -1,0 +1,167 @@
+.hinduBanner{
+  background: url('../image/hindu\ banner.jpg') no-repeat ;
+  height: 650px;
+  width: 100%;
+}
+
+.hinduMainDiv{
+  display: flex;
+}
+
+.hinduPicDiv{
+  width: 50%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.hinduPara{
+  width: 45%;
+  height: auto;
+  text-align: left;
+}
+
+.proflileHInduu{
+  height: 300px;
+  width: 500px;
+}
+
+
+.stepPara{
+  text-align: left;
+  margin-left: 20px;
+  text-align: justify;
+}
+
+.myStleLi li{
+  list-style-type: disc;
+}
+
+
+
+/* style={{ marginBottom: '10px', display: 'flex', flexDirection: 'column', alignItems: 'center' }} */
+
+.templeatess{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 20px;
+}
+
+
+@media only screen and (max-width: 450px) and (min-width: 100px) {
+   
+  .hinduMainDiv{
+      display: block;
+  }
+         
+  .hinduMainDiv>div{
+      width: 90%;
+      margin: auto;
+      text-align: justify;
+  }
+  .proflileHInduu{
+      height: 100%;
+      width: 100%;
+  }
+
+  
+}
+@media only screen and (max-width: 770px) and (min-width: 451px) {
+   
+  .hinduMainDiv{
+      display: block;
+  }
+         
+  .hinduMainDiv>div{
+      width: 90%;
+      margin: auto;
+      text-align: justify;
+  }
+  .hinduPicDiv{
+      margin:auto;
+      width: 100%;
+      height: auto;
+      margin-top: 20px;
+  }
+  .proflileHInduu{
+      height: 100%;
+      width: 100%;
+  }
+  
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 771px) {
+   
+
+         
+  .hinduMainDiv>div{
+      width: 48%;
+      margin: auto;
+      text-align: justify;
+      justify-content: space-between;
+  }
+  .hinduPicDiv{
+      margin:auto;
+      width: 100%;
+      height: auto;
+      margin-top: 20px;
+  }
+  .proflileHInduu{
+      height: 300px;
+      width: 100%;
+  }
+  
+}
+
+/* style={{ marginBottom: '10px', display: 'flex', flexDirection: 'column', alignItems: 'center' }} */
+
+.templeatess{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+
+
+/* carousel */
+
+/* 
+
+.myCatorytSwiper {
+    margin: 0;
+    padding: 0;
+      width: 120%;
+      height: 110%;
+      border-radius: 25px;
+      z-index: 200;
+      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+    
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: black;
+      border:1.5px solid black;
+      border-radius: 25px;
+      
+      
+    }
+    
+    .swiper-slide img {
+      display: block;
+      width: 99.5%;
+      height: 500px;
+      object-fit: fill;
+      border-radius: 25px;
+  
+    }
+    
+    
+    /* .swiper {
+      margin-left: auto;
+      margin-right: auto;
+    } */
+    /* .myCatorytSwiper{
+      width: 100%;
+    } */ 

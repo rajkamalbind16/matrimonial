@@ -1,0 +1,137 @@
+
+.customizeB {
+  background-color: goldenrod;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.customizeB:hover {
+  background-image: linear-gradient(to bottom, rgb(255, 254, 253), rgb(184, 11, 54));
+}
+.customizeB2{
+  background-color: goldenrod;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.customizeB2:hover {
+  background-image: linear-gradient(to bottom, rgb(201, 183, 65), rgb(227, 48, 89));
+}
+.customizeB3{
+  background-color: goldenrod;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.customizeB3:hover {
+  background-image: linear-gradient(to bottom, rgb(201, 183, 65), rgb(69, 45, 187));
+}
+
+
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, [col] 100px ) ;
+    grid-template-rows: repeat(3, [row] auto  );
+    top:50px;
+    color: transparent;
+  }
+
+  .box {
+   
+
+    top:"50%";
+    background-color: transparent;
+    gap: 0px;
+    color: black;
+    border-radius: 5px;
+    padding: 1px;
+    font-size: 50%;
+font-size: 10px;
+  }
+
+  /* .box .boxs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: red;
+    position: relative;
+    left: 112px;
+     } */
+  
+
+  .details-card {
+    /* top:"50%"; */
+      width: 350px;
+      margin-right: -10px;
+    
+    
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .box label + label {
+width:220px;
+  }
+  .box {
+    display: flex;
+    /* margin-bottom: 10px; */
+  }
+  .box label {
+    display: flex;
+    align-items: flex-start;
+    width: 100px;
+  }
+  
+  
+  label {
+    font-weight: bold;
+    width: 120px;
+  }
+  
+  label:last-child {
+    margin-left: 10px;
+  }
+  .details-card {
+    background-color: transparent;
+    border-radius: 10px;
+    /* padding: 20px; */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 2px;
+  }
+  
+  .box {
+    display: flex;
+  }
+  
+  label {
+    font-weight: bold;
+    width: 120px;
+  }
+  
+  label:last-child {
+    margin-left: 10px;
+  }
+  

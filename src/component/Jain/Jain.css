@@ -1,0 +1,145 @@
+.JainBanner{
+  background: url('../image/jain\ banner.jpg') no-repeat ;
+  height: 650px;
+  width: 100%;
+}
+
+.JainMainDiv{
+  display: flex;
+}
+
+.JainPicDiv{
+  width: 50%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.JainPara{
+  width: 45%;
+  height: auto;
+  text-align: left;
+}
+
+.proflileHJain{
+  height: 300px;
+  width: 500px;
+}
+
+
+.stepPara{
+  text-align: left;
+  margin-left: 20px;
+}
+
+.myStleLi li{
+  list-style-type: disc;
+}
+
+
+@media only screen and (max-width: 450px) and (min-width: 100px) {
+   
+  .JainMainDiv{
+      display: block;
+  }
+         
+  .JainMainDiv>div{
+      width: 90%;
+      margin: auto;
+      text-align: justify;
+  }
+  .proflileHJain{
+      height: 100%;
+      width: 100%;
+  }
+
+  
+}
+@media only screen and (max-width: 770px) and (min-width: 451px) {
+   
+  .JainMainDiv{
+      display: block;
+  }
+         
+  .JainMainDiv>div{
+      width: 90%;
+      margin: auto;
+      text-align: justify;
+  }
+  .JainPicDiv{
+      margin:auto;
+      width: 100%;
+      height: auto;
+      margin-top: 20px;
+  }
+  .proflileHJain{
+      height: 100%;
+      width: 100%;
+  }
+  
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 771px) {
+   
+
+         
+  .JainMainDiv>div{
+      width: 48%;
+      margin: auto;
+      text-align: justify;
+      justify-content: space-between;
+  }
+  .JainPicDiv{
+      margin:auto;
+      width: 100%;
+      height: auto;
+      margin-top: 20px;
+  }
+  .proflileHJain{
+      height: 300px;
+      width: 100%;
+  }
+  
+}
+
+
+/* carousel */
+
+/* 
+
+.myCatorytSwiper {
+    margin: 0;
+    padding: 0;
+      width: 120%;
+      height: 110%;
+      border-radius: 25px;
+      z-index: 200;
+      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+    
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: black;
+      border:1.5px solid black;
+      border-radius: 25px;
+      
+      
+    }
+    
+    .swiper-slide img {
+      display: block;
+      width: 99.5%;
+      height: 500px;
+      object-fit: fill;
+      border-radius: 25px;
+  
+    }
+     */
+    
+    /* .swiper {
+      margin-left: auto;
+      margin-right: auto;
+    } */
+    /* .myCatorytSwiper{
+      width: 100%;
+    } */

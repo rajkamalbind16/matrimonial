@@ -1,0 +1,71 @@
+.mainFormJain{
+    font-size: 20px;
+}
+
+
+.navJanamTarikh input{
+    width: 260px;
+    height: 25px;
+    font-size: 20px;
+}
+
+.dobjanamsthan input{
+    width: 200px;
+    height: 25px;
+    font-size: 20px;
+}
+
+.kuldevta input{
+    width: 250px;
+    height: 25px;
+    font-size: 20px;  
+}
+
+.rashiGunn input{
+    width: 200px;
+    height: 25px;
+    font-size: 20px;  
+}
+
+.nokriii input{
+    width: 450px;
+    height: 25px;
+    font-size: 20px;  
+}
+
+.peeshhaa input{
+    width: 450px;
+    height: 25px;
+    font-size: 20px;  
+}
+
+
+.mygrtiddd{
+    columns: 2;
+
+}
+
+.mygrtiddd input{
+    width: 350px;
+    height: 25px;
+    font-size: 20px;
+}
+
+.addressss input{
+    width: 350px;
+    height: 25px;
+    font-size: 20px;   
+}
+
+#btnnn{
+    color: white;
+    background-color: blue;
+    height: 40px;
+    width: 200px;
+    font-size: 25px;
+}
+
+#btnnn:hover{ 
+    color: green;
+    background-color: yellow;
+}

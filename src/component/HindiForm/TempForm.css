@@ -1,0 +1,166 @@
+.mainFormssss{
+    border: 2px solid red;
+    font-size: 20px;
+}
+
+
+
+
+   .navJanamTarikh{
+    display: flex;
+   }
+
+   .dobjanamsthan{
+    display: flex;
+   }
+
+   .kuldevta{
+    display: flex;
+   }
+   .rashiGunn{
+    display: block;
+   }
+
+   .nokriii{
+    display: block;
+   }
+   .peeshhaa{
+    display: block;
+   }
+
+
+
+   .addressss{
+    display: block;
+   }
+   
+
+
+
+.navJanamTarikh input{
+    width: 260px;
+    height: 25px;
+    font-size: 20px;
+}
+
+.dobjanamsthan input{
+    width: 200px;
+    height: 25px;
+    font-size: 20px;
+}
+
+.kuldevta input{
+    width: 250px;
+    height: 25px;
+    font-size: 20px;  
+}
+
+.rashiGunn input{
+    width: 200px;
+    height: 25px;
+    font-size: 20px;  
+}
+
+.nokriii input{
+    width: 450px;
+    height: 25px;
+    font-size: 20px;  
+}
+
+.peeshhaa input{
+    width: 450px;
+    height: 25px;
+    font-size: 20px;  
+}
+
+
+.mygrtiddd{
+    columns: 2;
+
+}
+
+.mygrtiddd input{
+    width: 350px;
+    height: 25px;
+    font-size: 20px;
+}
+
+.addressss input{
+    width: 350px;
+    height: 25px;
+    font-size: 20px;   
+}
+
+#btnnn{
+    color: white;
+    background-color: blue;
+    height: 40px;
+    width: 200px;
+    font-size: 25px;
+}
+
+#btnnn:hover{ 
+    color: green;
+    background-color: yellow;
+}
+
+
+
+
+@media only screen and (max-width: 450px) and (min-width: 100px) {
+    .mainFormssss{
+        font-size: 20px;
+
+
+        border: 10px solid blue;
+    }
+
+
+   .navJanamTarikh{
+    display: block;
+    margin: auto;
+   }
+
+   .dobjanamsthan{
+    display: block;
+    margin: auto;
+
+   }
+
+   .kuldevta{
+    display: block;
+        margin: auto;
+
+   }
+   .rashiGunn{
+    display: block;
+        margin: auto;
+
+   }
+
+   .nokriii{
+    display: block;
+        margin: auto;
+
+   }
+   .peeshhaa{
+    display: block;
+        margin: auto;
+
+   }
+
+
+
+   .addressss{
+    display: block;
+        margin: auto;
+
+   }
+   
+   .mygrtiddd{
+display: block;
+    margin: auto;
+
+}
+
+}
