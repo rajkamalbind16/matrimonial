@@ -1,0 +1,74 @@
+.match{
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    text-align: center;
+}
+.word{
+    color: white;
+   
+   margin-top: -300px;
+   font-family:Times New Roman, serif;
+font-size: 60px;
+}
+.container{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+ 
+}
+.left{
+    width: 30%;
+   
+}
+.right{
+    width: 65%;
+  
+}
+.line{
+    height: 5px;
+    width: 50%;
+    background-color: brown;
+}
+.left>input{
+    padding: 10px;
+    width: 93%;
+    height: 50px;
+    margin-top: 10px;
+    background-color: rgb(221,221,221);
+}
+.left>textarea{
+    margin-top: 10px;
+    width: 98%;
+    background-color: rgb(221,221,221);
+    height: 300px;
+}
+.left>button{
+    width: 99%;
+    padding: 20px;
+    background-color: brown;
+    color: white;
+}
+
+@media only screen and (max-width: 450px) and (min-width: 100px) {
+    .container{
+        font-family: sans-serif;
+        display: block;
+        justify-content: space-between;
+        width: 95%;
+        margin: auto;
+     
+    }
+    .left{
+        width: 90%;
+        margin: auto;
+       
+    }
+    .right{
+        width: 95%;
+        margin: auto;
+      
+    }
+}

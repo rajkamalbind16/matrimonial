@@ -1,0 +1,381 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap'); */
+
+
+.text {
+    text-align: center;
+    position: relative;
+    margin-top: -500px;
+    color: rgb(236, 189, 91);
+    z-index: 1;
+}
+
+.texta {
+    text-align: center;
+    position: relative;
+    margin-top: -200px;
+
+    z-index: 1;
+}
+
+.texta h3 {
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+.textb {
+    position: relative;
+
+    color: white;
+    z-index: 1;
+}
+
+.textb p {
+    padding: 20px;
+    text-align: center;
+}
+
+.services,.servicesa {
+    font-family: sans-serif;
+    width: 60%;
+    margin: auto;
+    text-align: justify;
+
+}
+
+.services h3,
+.services h1 {
+    font-size: 55px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+.card {
+    width: 80%;
+    margin: auto;
+
+    display: flex;
+    gap: 30px;
+}
+
+.card>div {
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    height: 100%;
+    margin: auto;
+
+    width: 35%;
+}
+
+.card>div:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.carda {
+    width: 80%;
+    margin: auto;
+    height: 600px;
+    display: flex;
+    gap: 30px;
+}
+
+.carda>div {
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    height: 100%;
+    margin: auto;
+
+    width: 35%;
+}
+
+.carda>div:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.textc {
+    margin: auto;
+    text-align: justify;
+    position: relative;
+    width: 50%;
+    margin-top: -400px;
+    z-index: 1;
+}
+
+.textca {
+    margin: auto;
+    text-align: justify;
+    position: relative;
+    width: 50%;
+    margin-top: -500px;
+    z-index: 1;
+}
+
+.carda>div>div>button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.carda>div>div>button:hover {
+    background-color: rgb(73, 8, 8);
+    color: white;
+}
+
+.card>div>div>button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.card>div>div>button:hover {
+    background-color: rgb(73, 8, 8);
+    color: white;
+}
+
+.about {
+    text-align: justify;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 500px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.about>div {
+    padding: 10px;
+
+    width: 23%;
+
+    margin: auto;
+    align-items: center;
+}
+
+.progressa {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    height: 20px;
+    overflow: hidden;
+}
+
+.progress {
+    background-color: #3498db;
+    color: #fff;
+    font-weight: bold;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    transition: width 0.5s;
+}
+
+.slider {
+    background-image: url("./picc/p5.jpg");
+    background-repeat: no-repeat;
+    object-fit: fill;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    height: 500px;
+}
+
+.slide>div {
+    margin: auto;
+}
+
+.circle {
+    /* margin: auto; */
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+
+
+.help {
+   
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 50px;
+
+}
+
+.help>p {
+    font-size: 30px;
+    font-family: Rockwell Extra Bold;
+}
+
+.help>h3 {
+    font-size: 60px;
+    font-family: Rockwell Extra Bold;
+}
+
+.btn {
+    padding: 10px;
+    width: 200px;
+    border: 3px solid rgb(236, 189, 91);
+}
+
+.contain {
+    display: flex;
+    width: 100%;
+   
+
+}
+
+.contain>div {
+    font-family: Rockwell Extra Bold;
+    width: 16.5%;
+    font-size: 30px;
+    text-align: center;
+    height: 100%;
+    border-left: 1px solid rgb(143, 140, 140);
+
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+}
+
+.contain>div:hover {
+    opacity: 0.5;
+    background-color: transparent;
+    background-color: rgb(236, 189, 91);
+}
+
+.contain>div>h3 {
+    margin-top: 70px;
+}
+
+.icons {
+    margin-top: 50px;
+    color: rgb(247, 170, 4);
+    font-size: 80px;
+}
+@media only screen and (max-width: 450px) and (min-width: 100px) {
+    .contain {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+      
+        width: 100%;
+        
+
+    }
+
+    .contain>div {
+        font-family: Rockwell Extra Bold;
+        width: 90%;
+        margin: auto;
+       
+        font-size: 30px;
+        text-align: center;
+        height: 300px;
+        border-left: 1px solid rgb(143, 140, 140);
+
+        /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    }
+
+ 
+    .services {
+        font-family: sans-serif;
+        width: 90%;
+        overflow-x: hidden;
+        margin: auto;
+        margin-top: 1270px;
+        text-align: justify;
+
+    }
+    .help {
+   
+        position: absolute;
+        margin-top: -500px;
+        margin-left: 50px;
+    
+    }
+    
+    .help>p {
+        font-size: 25px;
+        font-family: Rockwell Extra Bold;
+    }
+    
+    .help>h3 {
+        font-size: 30px;
+        font-family: Rockwell Extra Bold;
+    }
+
+    .card {
+        width: 90%;
+        margin: auto;
+        height: 1500px;
+        display: block;
+        overflow-x: hidden;
+    }
+
+    .slide>p {
+        text-align: center;
+        margin: auto;
+    }
+
+    .card>div {
+        /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+
+        margin: auto;
+        height: 32%;
+        width: 100%;
+    }
+    .texta{
+        display: none;
+    }
+    .text {
+        text-align: center;
+        position: relative;
+        margin-top: -1950px;
+        color: rgb(236, 189, 91);
+        z-index: 1;
+    }
+    .text>h1{
+        font-size: 23px;
+    }
+
+    .about {
+        text-align: justify;
+        display: block;
+        width: 100%;
+        justify-content: space-around;
+        height: 1500px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    .about>div {
+        padding: 10px;
+        height: 30%;
+        width: 90%;
+
+        margin: auto;
+        align-items: center;
+    }
+
+    .centre> {
+
+
+        width: 100%;
+        margin: auto;
+        align-items: center;
+        margin-left: 100px;
+    }
+
+    .carda {
+        width: 90%;
+        margin: auto;
+        height: 1800px;
+        display: block;
+        gap: 30px;
+    }
+
+    .carda>div {
+        /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+        width: 100%;
+        height: 600px;
+        margin: auto;
+
+    }
+
+
+}

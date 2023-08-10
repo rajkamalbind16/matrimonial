@@ -1,0 +1,87 @@
+/* .divorceeGroomsbanner{
+    height: 300px;
+    width: 100%;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+
+
+.divorceeGroomsDivslist{
+    display: flex;
+    justify-content: space-around;
+}
+
+th, td {
+    padding: 20px;
+  } */
+
+
+  /* DivorceeGrooms.css */
+
+.divorceeGroomsbanner {
+    background: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .divorceeGroomsbanner h2 {
+    color: #333;
+  }
+  
+  .divorceeGrooms-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .divorceeGrooms-table th,
+  .divorceeGrooms-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .divorceeGrooms-table th {
+    background: #f2f2f2;
+  }
+  
+  .divorceeGroomsDivslist {
+    margin-bottom: 10px;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .pagination button {
+    background: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .pagination button:hover {
+    background: #45a049;
+  }
+  
+  .pagination button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+
+  @media only screen and (max-width: 767px) {
+
+  .divorceeGroomss{
+    overflow-x: auto;
+  }
+
+}

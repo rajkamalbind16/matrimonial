@@ -1,0 +1,285 @@
+/* .navbarContainer{
+    display: flex;
+justify-content: space-around;
+}
+
+.mymenu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 18px;
+
+}
+
+.mymenu p{
+    margin: 8px;
+}
+
+
+.dropdowncontainer {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdownbutton {
+    /* background-color: #f1f1f1; */
+    /* color: #333;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  } */
+/*   
+  .dropdowncontent {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 5;
+  }
+  
+  .dropdowncontent p {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdowncontent p:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .dropdowncontainer:hover .dropdowncontent {
+    display: block;
+  } */
+
+
+
+.containerNav{
+  display: flex;
+  width: 99.9%;
+font-size: 20px;
+  height: 100px;
+  justify-content: space-around;
+  align-items: center;
+}
+.leftNav{
+  width: 18%;
+  height: 100%;
+ align-items: center;
+}
+.rightNav{
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+  height: 100%;
+}
+.rightNav>div{
+  gap: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.icon{
+border: 1px solid rgb(236,189,91);
+/* width: 60px;
+height: 60px; */
+font-size: 40px;
+color: rgb(236,189,91);
+  border-radius: 50%;
+}
+.burger{
+  font-size: 50px;
+color: rgb(236,189,91);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    z-index: 10;
+    gap: 10px;
+    font-family: 	Rockwell Extra Bold;
+  }
+  
+  .navbarLogo img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .hamburger {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .hamburgerLine {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px 0;
+  }
+  
+  .mymenu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .mymenu p {
+    margin-right: 10px;
+    cursor: pointer;
+   
+  }
+ 
+  .dropdowncontainer {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdownbutton {
+    cursor: pointer;
+  }
+  
+  .dropdowncontent {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 55;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .dropdowncontainer:hover .dropdowncontent {
+    display: block;
+  }
+  
+  @media only screen and (max-width: 450px) and (min-width: 100px) {
+    
+.containerNav{
+  display: flex;
+  width: 95%;
+font-size: 20px;
+  height: 100px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+    .leftNav{
+      width: 48%;
+      height: 100%;
+     align-items: center;
+    }
+    #logo{
+      width: 209px;
+      height: 100%;
+    }
+    .rightNav{
+      width: 40%;
+      
+      display: flex;
+    
+      align-items: center;
+      justify-content: space-around;
+      
+      height: 100%;
+    }
+    .rightNav>div{
+    
+      gap: 20px;
+      display: none;
+      align-items: center;
+    }
+    .navbarContainer {
+      position: absolute;
+      display: block;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      z-index: 10;
+      gap: 10px;
+      font-family: 	Rockwell Extra Bold;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  
+    .mymenu {
+      display: block;
+      flex-direction: column;
+      align-items: flex-start;
+      background-color: white;
+      width: 150px;
+     
+      padding: 10px;
+      position: absolute;
+      top: 50px;
+      margin-left: -63px;
+      
+    }
+  
+    .mymenu.open {
+      display: flex;
+      width: 100px;
+      position: absolute;
+      top: 59px;
+      left: 200px;
+      z-index: 100;
+    }
+  
+    .mymenu p {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .dropdowncontainer {
+      position: static;
+    }
+  
+    .dropdowncontent {
+      position: static;
+      padding: 0;
+      
+    }
+  }
+  
+
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .mymenu.open {
+      display: flex;
+      width: 170px;
+      position: absolute;
+      top: 59px;
+      left: 580px;
+      z-index: 100;
+
+    }
+  }

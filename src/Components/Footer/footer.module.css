@@ -1,0 +1,116 @@
+.container{
+    width: 100%;
+    color: white;
+    height: 500px;
+    background-color: rgb(27,21,33);
+}
+.footer{
+    display: flex;
+    width: 80%;
+    height: 300px;
+    margin: auto;
+
+    color: white;
+  justify-content: space-between;
+}
+.footer>div{
+    margin-top: 50px;
+    width: 30%;
+
+
+}
+.foot{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.visitor{
+    width: 80%;
+    margin: auto;
+}
+.down{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    width: 50%;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.img{
+    width: 50%;
+}
+
+
+#aghoriUpper{
+    font-size: 50px;
+    background-image: linear-gradient(#5e0dea, #0d70ea);
+    color:linear-gradient(#5e0dea, #0d70ea);
+    border-radius: 50%;
+    bottom: 0;
+
+}
+
+#aghoriUpper:hover{
+    transition: 0.5s ease-out;
+    transform: scale(1.2);
+    color:linear-gradient(#ed525c, #63fa35);
+    background-image: linear-gradient(#ed525c, #63fa35);
+
+
+}
+
+#DotDot{
+    border-bottom: 2px dotted rgb(248, 247, 247);
+}
+#DotDots{
+    border-bottom: 2px dotted rgb(248, 247, 247);
+    border-top: 2px dotted rgb(248, 247, 247);
+    margin: 10px 0px;
+
+}
+
+@media only screen and (max-width: 450px) and (min-width: 100px) {
+
+    .footer{
+        display: block;
+        width: 80%;
+        height: 1000px;
+        margin: auto;
+    
+        color: white;
+      justify-content: space-between;
+    }
+    .img{
+        width: 95%;
+    }
+    .footer>div{
+        margin-top: 50px;
+        width: 100%;
+        margin: auto;
+    
+    }
+    .container{
+        width: 95%;
+        color: white;
+        height: 1550px;
+        overflow-x: hidden;
+        background-color: rgb(27,21,33);
+    }
+    .down{
+        width: 80%;
+        margin: auto;
+        
+        display: block;
+        justify-content: space-between;
+    }
+    .foot{
+        display: block;
+     text-align: center;
+        gap: 30px;
+    }
+}

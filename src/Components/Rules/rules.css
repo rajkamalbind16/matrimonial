@@ -1,0 +1,55 @@
+/* rules.css */
+
+/* Style for the heading */
+.rulesBanner{
+    width: 100%;
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+ 
+  
+  /* Style for the container div */
+  .imgg1,
+  .imgg2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the images */
+  #img1,
+  #img2 {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+
+
+  @media only screen and (max-width: 767px) {
+
+    #img1,
+    #img2 {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+  
+
+  }
+
+
+
+
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+      #img1,
+      #img2 {
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #ccc;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      
+    }    

@@ -1,0 +1,85 @@
+/* .successStoryBanner{
+    height: 300px;
+    width: 100%;
+    background-color: blueviolet;
+    text-align: center;
+  }
+  
+  .successStorydiv{
+    border: 1px solid red;
+    margin-left: 20px;
+  }
+  .successStoryDivslist{
+      display: flex;
+      justify-content: space-around;
+    font-size: 20px;
+  }
+  
+ .successStorydiv th, td {
+    padding-left: 20px;
+  }
+   */
+
+
+
+   .successStoryBanner {
+    background: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .successStorydiv {
+    margin-top: 20px;
+  }
+  
+  .successStory-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .trsuccessStory th {
+    background: red;
+    color: white;
+    padding: 10px;
+  }
+  
+  .trsuccessStory td {
+    padding: 10px;
+  }
+  
+  .successStoryDivslist {
+    background: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination-button {
+    background: #f1f1f1;
+    border: none;
+    color: #333;
+    padding: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .pagination-button.active {
+    background: #333;
+    color: white;
+  }
+  
+
+
+  @media only screen and (max-width: 767px) {
+    .successStorydiv{
+      overflow-x: auto;
+    }
+  }
+
+
+    

@@ -1,0 +1,193 @@
+/* .enrollBanner{
+    height: 300px;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+
+.dropdown-summary{
+    background-color: rgb(95, 95, 248);
+    margin-top: 5px;
+    justify-content: space-between;
+} */
+
+
+/* enroll.css */
+
+.enrollBanner {
+    background: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .dropdown-summary {
+    background: #f1f1f1;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  
+  .dropdown-summary span {
+    font-weight: bold;
+  }
+  
+  .dropdown-summary span:last-child {
+    font-size: 20px;
+  }
+  
+  .dropdown-content {
+    background: #f9f9f9;
+    padding: 10px;
+    font-size: 22px;
+    text-align: justify;
+
+  }
+  
+  
+  .dropdown-content input{
+    margin-bottom: 10px;
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    font-size: 20px;
+
+  }
+  .dropdown-content select{
+    margin-bottom: 10px;
+    width: auto;
+    height: 40px;
+    font-size: 20px;
+
+
+    padding: 5px;
+  }
+  .dropdown-content textarea {
+    margin-bottom: 10px;
+    width: 200px;
+    padding: 5px;
+  }
+  
+  .dropdown-content button {
+    background: #f1f1f1;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .dropdown-content button:hover {
+    background: #ddd;
+  }
+  
+  .dropdown-content input[type="file"] {
+    margin-bottom: 10px;
+  }
+  
+  .dropdown-content input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  /* Additional styles for the verification code section */
+  .dropdown-content .verification-code {
+    display: flex;
+    align-items: center;
+  }
+  
+  .dropdown-content .verification-code input {
+    flex: 1;
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  .dropdown-content .verification-code button {
+    background: #f1f1f1;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .dropdown-content .verification-code button:hover {
+    background: #ddd;
+  }
+  
+
+
+  .dropdownContentDiv{
+    display: flex;
+    justify-content: space-around;
+    margin: 3px 40px;
+
+  }
+
+  
+  .dropdownContentDiv div{
+  
+text-align: left;
+
+  }
+
+  .dropdownContentDi div{
+    text-align: center;
+    
+
+  }
+
+  #dropdownContentDivx{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 3px 30px;
+
+  
+  }
+
+   
+#DivformSubmit{
+  margin-top: 10px;
+  text-align: center;
+}
+ 
+/* CSS */
+#formSubmit{
+  background-image: linear-gradient(#0dccea, #0d70ea);
+  border: 0;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: Montserrat,sans-serif;
+  margin: 5px;
+  padding: 10px 15px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  text-align: center;
+  height: 50px;
+  width: auto;
+  padding: 9px 15px;
+  font-size: 22px;
+  margin: auto;
+}
+#formSubmit:hover{
+  background-image: linear-gradient(#20f432, #77f467);
+  transition: 0.5s ease-in;
+
+}
+
+    
+@media (max-width: 600px) {
+  .dropdownContentDiv {
+    flex-direction: column;
+  }
+  .dropdownContentDiv div {
+    text-align: center;
+  }
+  .dropdown-content input,
+  .dropdown-content select,
+  .dropdown-content textarea {
+    width: 100%;
+  }
+}
+      

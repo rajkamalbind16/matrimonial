@@ -1,0 +1,107 @@
+.DivorceeBridesbanner {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.DivorceeBridess {
+  margin-top: 20px;
+}
+
+.DivorceeBrides-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.trDivorceeBrides {
+  background: red;
+  color: white;
+}
+
+.trDivorceeBrides th,
+.DivorceeBrides-table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.DivorceeBridesDivslist p {
+  margin: 5px 0;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 8px 12px;
+  font-size: 14px;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #d3d3d3;
+}
+
+.pagination button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Styles for tablet screens and below */
+  .DivorceeBrides-table {
+    font-size: 14px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+
+  }
+  .DivorceeBridess {
+    margin-top: 20px;
+    overflow-x: auto;
+  }
+  .DivorceeBrides-table th,
+  .DivorceeBrides-table td {
+    padding: 8px;
+  }
+
+  .pagination button {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* Styles for mobile screens */
+  .DivorceeBridesbanner {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .DivorceeBridesDivslist{
+    overflow: scroll;
+
+  }
+
+  .DivorceeBrides-table {
+    font-size: 12px;
+  }
+
+  .DivorceeBrides-table th,
+  .DivorceeBrides-table td {
+    padding: 6px;
+  }
+
+  .DivorceeBridesDivslist p {
+    margin: 3px 0;
+  }
+
+  .pagination button {
+    padding: 4px 8px;
+    font-size: 10px;
+  }
+}
